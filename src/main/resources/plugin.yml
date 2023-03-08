@@ -1,0 +1,14 @@
+name: Mhider
+version: '${project.version}'
+main: xyz.zielinus.mhider.Mhider
+api-version: 1.19
+authors: [ Zielino ]
+description: A Plugin that allows morphing into other Player
+website: https://zielinus.xyz
+
+commands:
+  morph:
+    aliases:
+      - hide
+    usage: "/morph <username>"
+    description: "Morph into other player"
